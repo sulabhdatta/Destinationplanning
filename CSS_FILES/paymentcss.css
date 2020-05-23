@@ -1,0 +1,12 @@
+
+#row1{
+     height:400px;
+    background-color:white;
+}
+#col1{
+    background-color:white;
+}
+#col2{
+    border:1px solid black;
+    height:350px;
+}

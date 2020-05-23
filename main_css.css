@@ -1,0 +1,257 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 30, 2019, 12:24:19 PM
+    Author     : Ramandeep
+*/
+
+/*===================================================================================*/
+/*MAIN PAGE CSS*/
+/*======================================================================================*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height: 600px;
+    width: 100%;
+    background-image: url(images/bannerbg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px; 
+    text-align: center;
+    color: white;
+    /*margin-left: 100px;*/
+}
+.header img{
+    width: 170px;
+    float: left;
+
+}
+
+.links .login-btn{
+    margin-left:180px;
+    width:140px;
+    margin-top:2px;
+    outline: none !important;
+   background: transparent;
+     
+    color:red;
+    border-radius:50px;
+    float:left;
+}
+.login-btn{
+    margin-top:-80px;
+    width: 100px;
+    padding: 8px 0;
+    background: transparent;
+    outline: none ;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+    float: right;
+}
+.header h1{
+    padding-top: 250px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px;
+}
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px;   
+}
+.form-control{
+    border: 0!important;
+    border-radius:30px !important;
+    margin: 2px;
+    box-shadow: none;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(gray,yellowgreen);
+    border:  0 !important;
+    color: white !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none!important;
+}
+/*===========================================================================*/
+//feature css
+/*============================================================================*/
+.features{
+    background-color:lightgrey; height: 850px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.features-image img{
+    width: 100%;
+    height: 200px;
+    
+   
+}
+.price{
+    width: 60px;
+    height: 50px;
+    background: orangered;
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: -25px;
+}
+.price p{
+    text-align: center;
+}
+.price i{
+    color: white;
+}
+.features-image{
+    position: relative;
+
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa{
+    font-size: 15px;
+    color: orangered;
+}
+.features-details{
+    padding: 20px;
+    text-align: justify;
+}
+.features-details h4{
+    font-weight: 700px;
+    margin-top: 20px;   
+}
+.features-details fa{
+    margin-left: 20px;
+}
+.features-box{
+    min-height:640px;
+    box-shadow: 0 0 20px 0;
+}
+
+/*=============================================================================================================*/
+/*booknow*/
+/*================================================================================================*/
+.booknow{
+    height: 500px;
+    background-color: pink;
+    background-image:url(images/booknow.jpg); 
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    padding-top: 250px;
+}
+.banner-high{
+    height: 200px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    padding-top: 60px;
+    
+}
+.booking-btn{
+     width: 150px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid white;
+    color: white;
+    background: none;
+    border-radius: 50px;
+    float: right;
+}
+#btn:hover{
+    background-color:red;
+}
+/*====================================================================================================
+user-feedback
+==================================================================================================*/
+.user-feedback{
+    padding: 50px 0;
+
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0;
+    padding-bottom: 50px;
+}
+.user-review p{
+    /*padding:50px 10px 10px 10px;*/
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.user-review h4{
+    padding-bottom:30px;
+    padding-right: 10px;
+}
+
+.user-review img{
+    width: 60px; 
+    height: 60px;
+    border-radius:50px; 
+    margin-bottom:-110px;
+    margin-left:-10px;  
+}
+/*==============================================================================================*/
+/*fotter css*/
+/*================================================================================================*/
+.fotter{
+    height: 350px;
+    padding-top:20px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: white;
+    text-align: justify;
+}
+
+.fotter-logo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.fotter h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.fotter p{
+    /*text-align: center;*/
+    font-size: 15px;
+    text-align: justify;
+
+}
+.fotter .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.copyright pre{
+    text-align: center;
+    color: white;
+}

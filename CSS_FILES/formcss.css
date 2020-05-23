@@ -1,0 +1,62 @@
+.container-fluid{
+    background-image:url("https://ze-robot.com/images/source/14331.jpg");
+    height:100vh;
+    background-size:cover;
+
+}
+
+   
+.form-group{
+    margin-top:50px;
+    height:470px;
+    border-radius:10px;
+
+ -webkit-box-shadow: 32px 16px 59px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 16px 59px 0px rgba(0,0,0,0.75);
+box-shadow: 30px 14px 55px 0px rgba(0,0,0,0.75);
+}
+#loginform{
+     margin-top:70px;
+    height:470px;
+    border-radius:10px;
+ -webkit-box-shadow: 32px 16px 59px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 16px 59px 0px rgba(0,0,0,0.75);
+box-shadow: 32px 16px 59px 0px rgba(0,0,0,0.75);
+}
+input[type="text"]{
+    width:250px;
+  margin-left:90px;
+  
+}
+input[type="text"]:hover{
+    border:1px solid buttontext;
+}
+input[type="password"]{
+    width:250px;
+    margin-left:90px;
+}
+input[type="password"]:hover
+{ border:1px solid buttontext;
+}
+input[type="submit"]{
+    width:250px;
+    margin-left:90px;
+}
+input[type="submit"]:hover{
+    background-color:white;
+   width:260px;
+}
+input[type="number"]{
+      width:250px;
+  margin-left:90px;
+}
+
+#bt1{
+    background-color:lightskyblue;
+    width:350px;
+    margin-left:30px;
+    font-weight:bold;
+}
+#createbutton:hover{
+  background-color:red;
+}

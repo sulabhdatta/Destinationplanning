@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+}
+
+.container-fluid top{
+    background-image:url("https://jooinn.com/images/brown-wooden-planks-2.jpg");
+   min-height: 700px;
+    padding-top: 10px;
+    
+}
+.boxes{
+    padding-left: 100px;
+    box-shadow: 10px;
+}
+
+img{
+    background: none;
+    height: 200px;
+    width: 230px;   
+}
+h3{
+    color: white;
+}
+/*=======================================*/
+/*add package*/ 
+/*=========================================*/
+#add{
+    margin-left:200px;
+}
+body{
+    background-color:background;
+}
